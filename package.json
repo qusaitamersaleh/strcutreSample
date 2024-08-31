@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "bcryptjs": "latest",
+    "body-parser": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "excel4node": "latest",
+    "express": "latest",
+    "express-mongo-sanitize": "latest",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "hpp": "latest",
+    "joi": "latest",
+    "joi-objectid": "latest",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "morgan": "latest",
+    "nodemon": "^3.1.4",
+    "path": "latest",
+    "request": "latest",
+    "shortid": "latest",
+    "util": "latest",
+    "xss-clean": "latest"
+  },
+  "name": "worklog",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "build express",
+    "dev": "nodemon server.mjs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "BE Team",
+  "license": "ISC",
+  "engines": {
+    "node": "^16"
+  }
+}

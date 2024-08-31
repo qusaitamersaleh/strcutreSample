@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+*.env
+public/xlsx
+routes/test.js
+functions
+/routes/test.mjs
